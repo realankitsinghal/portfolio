@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANKIT SINGHAL || PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3fef9b3cb9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="pc/logo1.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>Hi, I'm <span>Ankit</span><br />Singhal from India</h1>
+        </div>
+      </div>
+    </div>
+    <!------------------About Us----------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="pc/bg2.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a Computer Engineering Under-Graduate at BKBIET Pilani and
+              also a Technology Enthusiastic. I have in depth knowledge of C++,
+              DSA, Operating System and System Design. <br />I have a Good
+              Knowledge of HTML, CSS.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('coursework')">
+                CourseWork
+              </p>
+              <p class="tab-links" onclick="opentab('certificate')">
+                Certificate
+              </p>
+              <p class="tab-links" onclick="opentab('awards')">Awards</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Experienced</span><br />C++</li>
+                <li><span>Intermediate</span><br />HTML, CSS, C, MY SQL</li>
+                <li><span>Familiar</span><br />Java</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Nirmaan Bkbiet Pilani Organization(2022 - Current)</span
+                  ><br />role:-Poster Designer
+                </li>
+                <li>
+                  <span>E-Cell Bkbiet(Jan. 2023 - Current)</span><br />Graphic
+                  Designer
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020-2024(Present) | Pilani,IN</span><br />B.Tech In
+                  Software Engineering at BKBIET Pilani
+                </li>
+                <li>
+                  <span>2019-RBSE(Class-XII)</span><br />Gramothan Senior
+                  Secondary School, Mandrella
+                </li>
+                <li>
+                  <span>Graphic Designing</span><br />Self Learning From YouTube
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="coursework">
+              <ul>
+                <li>
+                  <span>Under-Graduate</span><br />Data Structure & Algorithms
+                </li>
+                <li>Design & Analysis of Algorithms</li>
+                <li>Object Oriented Programming</li>
+                <li>Operating System</li>
+                <li>DataBase Management System</li>
+                <li>Computer Networks</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certificate">
+              <ul>
+                <li>
+                  <span>Programming With C & C++</span><br /><a
+                    href="https://drive.google.com/file/d/1ICvQrbYKvgUsETX_k_iaR42JZNonUvv6/view?usp=sharing"
+                    >Click here</a
+                  >
+                </li>
+                <li>
+                  <span>Front End Developement With HTML</span><br /><a
+                    href="http://verify.mygreatlearning.com/CGVCLNJX"
+                    >Click here</a
+                  >
+                </li>
+                <li>
+                  <span>Front End Developement With CSS</span><br /><a
+                    href="http://verify.mygreatlearning.com/ACHTDKRR"
+                    >Click here</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="awards">
+              <ul>
+                <li><span>JEE-MAIN  2019</span><br />1740 Rank(SC-Cat.)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------services------------>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              I have a good knowledge of HTML & CSS. if you want to create or
+              design your website by me then contact me
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-camera-retro"></i>
+            <h2>Poster Design</h2>
+            <p>
+              I have a good knowledge of Adobe Photoshop CC & Adobe Premier Pro.
+              if you want to design your pic or video by me then contact me
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+              I have a good knowledge of C++ & DSA. if you want to design your
+              first App by me then contact me
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------portfolio------------------>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="pc/Screenshot 2023-01-27 173033.png" />
+            <div class="layer">
+              <h3>Feedback App</h3>
+              <p>
+                The Web app is designed to show the feedback of Customer.
+                See This on google.
+              </p>
+              <a href="https://feedback-ui-by-ankit.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="pc/work-2.png" />
+            <div class="layer">
+              <h3>Portfolio Web App</h3>
+              <p>
+                The Web app connects you with me.
+                See my portfolio website here.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="pc/work-3.png" />
+            <div class="layer">
+              <h3>House Market-Place Web App</h3>
+              <p>
+                The web app is basically an online House Selling App.
+                See it on google.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-------------------contact----------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> thejiteshsinghal@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> +91 6378812100</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/ankit-singhal-4418a4200"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.github.com/realankitsinghal"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+              <a href="https://www.instagram.com/realankitsinghal"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <a href="pc/AnkitResume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------------Copyright----------->
+
+      <div class="copyright">
+        <p>
+          Copyright © AnkitSinghal. Made with
+          <i class="fa-solid fa-heart"></i> By Ankit Singhal
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tablcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tablcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx5LVZAwdsFm3GnqyqvfAy_YUYdpFPGpz3iguctVqD4DPRcI3IDTJGFl6eHK9rJKAbq/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
